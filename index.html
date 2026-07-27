@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jose Rodas · Desarrollador Full Stack</title>
+<meta name="description" content="Portafolio de Jose Rodas, desarrollador full stack.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!--
+  ============================================================
+  PERSONALIZA ESTE ARCHIVO:
+  - Reemplaza "Jose Rodas" por tu nombre en el <title>, en el
+    logo (.brand) y en el <h1> del hero.
+  - Edita el objeto "developer" dentro de .code-body con tus datos
+    (nombre, rol, stack, etc.) — cada línea se anima al cargar.
+  - Cambia la lista data-words de .rotating-word por palabras que
+    describan lo que construyes.
+  - Cambia la frase de la cita (.hero-quote) y el comando/salida
+    del terminal (data-terminal-typing / data-terminal-output).
+  - Actualiza los enlaces de redes sociales del nav y del footer.
+  ============================================================
+-->
+
+<header class="navbar">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">RM</span>
+      Jose Rodas
+    </a>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre-mi.html">Sobre mí</a></li>
+        <li><a href="cv.html">Currículum</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-social">
+      <a href="https://github.com/jrodas-2021373" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.29 9.29 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.03 10.03 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/jose-carlos-rodas-macal-453a89424/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 8.5H3.56V20.5h3.38V8.5ZM5.25 3.5a1.97 1.97 0 1 0 0 3.94 1.97 1.97 0 0 0 0-3.94ZM20.5 20.5h-3.38v-6.06c0-1.44-.03-3.3-2.01-3.3-2.01 0-2.32 1.57-2.32 3.2v6.16H9.4V8.5h3.24v1.64h.05c.45-.86 1.56-1.77 3.21-1.77 3.43 0 4.6 2.26 4.6 5.2v6.93Z"/></svg>
+      </a>
+    </div>
+
+    <button class="nav-toggle" aria-label="Abrir menú">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- 1. BIENVENIDA -->
+<section class="hero-new">
+  <span class="hero-watermark" aria-hidden="true">&lt;/&gt;</span>
+
+  <div class="hero-grid-2col">
+
+    <div class="hero-copy">
+      <h1 class="reveal">
+        <span class="name-highlight">
+          Jose Rodas
+          <svg class="name-underline" viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M2 14 C 60 4, 120 18, 160 10 S 260 4, 298 12" fill="none" stroke="#c9a227" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+        </span>
+      </h1>
+
+      <p class="hero-tagline reveal">
+        Construyo <span class="rotating-word" data-words="aplicaciones,sistemas,APIs,experiencias web">aplicaciones</span> que la gente disfruta usar.
+      </p>
+
+      <blockquote class="hero-quote reveal">
+        “Primero resuelve el problema. Luego, escribe el código.”
+        <cite>— John Johnson</cite>
+      </blockquote>
+
+      <div class="hero-actions reveal">
+        <a href="proyectos.html" class="btn btn-primary">
+          Ver proyectos
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="sobre-mi.html" class="btn btn-outline">Conóceme</a>
+      </div>
+
+      <div class="hero-badges reveal">
+        <span><strong>3+</strong>años programando</span>
+        <span><strong>3</strong>proyectos activos</span>
+        <span><strong>Nov. 2026</strong>graduación</span>
+      </div>
+    </div>
+
+    <div class="hero-code-wrap reveal">
+      <div class="code-window" data-tilt>
+        <div class="code-titlebar">
+          <div class="code-dots"><span></span><span></span><span></span></div>
+          <div class="code-tabs">
+            <span class="code-tab active">jose.js</span>
+            <span class="code-tab">README.md</span>
+          </div>
+        </div>
+        <div class="code-body">
+          <div class="code-line" style="--d:0s"><span class="ln">1</span><span class="tok-kw">const</span> developer = {</div>
+          <div class="code-line" style="--d:.25s"><span class="ln">2</span>&nbsp;&nbsp;name: <span class="tok-str">'Jose Rodas'</span>,</div>
+          <div class="code-line" style="--d:.5s"><span class="ln">3</span>&nbsp;&nbsp;role: <span class="tok-str">'Full Stack Developer'</span>,</div>
+          <div class="code-line" style="--d:.75s"><span class="ln">4</span>&nbsp;&nbsp;based: <span class="tok-str">'Guatemala'</span>,</div>
+          <div class="code-line" style="--d:1s"><span class="ln">5</span>&nbsp;&nbsp;stack: [<span class="tok-str">'Java'</span>, <span class="tok-str">'C#'</span>, <span class="tok-str">'Node'</span>],</div>
+          <div class="code-line" style="--d:1.25s"><span class="ln">6</span>&nbsp;&nbsp;passion: <span class="tok-bool">true</span>,</div>
+          <div class="code-line" style="--d:1.5s"><span class="ln">7</span>};</div>
+          <div class="code-line" style="--d:1.9s"><span class="ln">8</span>&nbsp;</div>
+          <div class="code-line" style="--d:2.05s"><span class="ln">9</span>developer.<span class="tok-fn">sayHi</span>();</div>
+        </div>
+        <div class="code-terminal">
+          <div class="term-line"><span class="prompt">$</span> <span data-terminal-typing="node jose.js"></span><span class="term-cursor"></span></div>
+          <div class="term-output" data-terminal-output>› Hola, mi nombre es Jose Rodas 👋</div>
+        </div>
+      </div>
+
+      <span class="float-chip chip-1">Java</span>
+      <span class="float-chip chip-2">C#</span>
+      <span class="float-chip chip-3">Node</span>
+      <span class="float-chip chip-4">.NET</span>
+    </div>
+
+  </div>
+
+  <div class="scroll-cue">
+    Desliza
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </div>
+</section>
+
+<!-- Marquee de tecnologías -->
+<section class="marquee">
+  <div class="marquee-track">
+    <span>Java</span><span>JavaScript</span><span>C#</span><span>.NET</span><span>Node.js</span><span>MySQL</span><span>PostgreSQL</span><span>MongoDB</span><span>Docker</span>
+    <span>Java</span><span>JavaScript</span><span>C#</span><span>.NET</span><span>Node.js</span><span>MySQL</span><span>PostgreSQL</span><span>MongoDB</span><span>Docker</span>
+  </div>
+</section>
+
+<footer class="site-footer" id="contacto">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3>Jose Rodas</h3>
+        <p>Estudiante de Perito en Informática construyendo aplicaciones web, de escritorio y sistemas backend con Java, C# y Node.js. Siempre abierto a nuevas oportunidades y colaboraciones.</p>
+      </div>
+      <div>
+        <p class="footer-social-title">Conecta conmigo</p>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/jose-carlos-rodas-macal-453a89424/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 8.5H3.56V20.5h3.38V8.5ZM5.25 3.5a1.97 1.97 0 1 0 0 3.94 1.97 1.97 0 0 0 0-3.94ZM20.5 20.5h-3.38v-6.06c0-1.44-.03-3.3-2.01-3.3-2.01 0-2.32 1.57-2.32 3.2v6.16H9.4V8.5h3.24v1.64h.05c.45-.86 1.56-1.77 3.21-1.77 3.43 0 4.6 2.26 4.6 5.2v6.93Z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/jrodas-2021373" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.29 9.29 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.03 10.03 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+            GitHub
+          </a>
+          <a href="mailto:jrodas-2021373@kinal.edu.gt">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Email
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 <strong>Jose Rodas</strong> — Desarrollador Full Stack. Todos los derechos reservados.
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

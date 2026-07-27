@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proyectos · Jose Rodas</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!--
+  ============================================================
+  PERSONALIZA ESTE ARCHIVO:
+  - Cada ".project-shot" muestra la captura real del proyecto
+    (assets/xxx-preview.jpg); cámbiala si actualizas el diseño.
+  - Cada ".project-card" es un proyecto: cambia título, logo
+    (.project-title-logo), descripción, tecnologías (.tag) y el
+    enlace de GitHub.
+  ============================================================
+-->
+
+<header class="navbar">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">RM</span>
+      Jose Rodas
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre-mi.html">Sobre mí</a></li>
+        <li><a href="cv.html">Currículum</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+      </ul>
+    </nav>
+    <div class="nav-social">
+      <a href="https://github.com/jrodas-2021373" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.29 9.29 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.03 10.03 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/jose-carlos-rodas-macal-453a89424/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 8.5H3.56V20.5h3.38V8.5ZM5.25 3.5a1.97 1.97 0 1 0 0 3.94 1.97 1.97 0 0 0 0-3.94ZM20.5 20.5h-3.38v-6.06c0-1.44-.03-3.3-2.01-3.3-2.01 0-2.32 1.57-2.32 3.2v6.16H9.4V8.5h3.24v1.64h.05c.45-.86 1.56-1.77 3.21-1.77 3.43 0 4.6 2.26 4.6 5.2v6.93Z"/></svg>
+      </a>
+    </div>
+    <button class="nav-toggle" aria-label="Abrir menú">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <p class="breadcrumb"><a href="index.html">Inicio</a> / Proyectos</p>
+    <p class="section-eyebrow">Portafolio de proyectos</p>
+    <h1>Cosas que he construido</h1>
+    <p>Una selección de proyectos finalizados, con su vista previa, tecnologías usadas y enlace al repositorio.</p>
+  </div>
+</section>
+
+<!-- 2.e — Vista general de proyectos -->
+<section>
+  <div class="container">
+    <div class="section-title-row reveal">
+      <p class="section-eyebrow">Vista general</p>
+      <h2 class="section-title">Capturas rápidas</h2>
+      <p class="section-lead">Un vistazo visual antes de entrar al detalle de cada proyecto.</p>
+    </div>
+
+    <div class="gallery">
+      <div class="browser-mock reveal">
+        <div class="browser-bar"><span></span><span></span><span></span></div>
+        <div class="project-shot">
+          <img src="assets/foodpilot-preview.jpg" alt="Pantalla de inicio de sesión de FoodPilot" loading="lazy">
+        </div>
+        <p class="gallery-caption">FoodPilot</p>
+      </div>
+      <div class="browser-mock reveal">
+        <div class="browser-bar"><span></span><span></span><span></span></div>
+        <div class="project-shot">
+          <img src="assets/crediexpress-preview.jpg" alt="Pantalla de inicio de sesión de CrediExpress" loading="lazy">
+        </div>
+        <p class="gallery-caption">CrediExpress</p>
+      </div>
+      <div class="browser-mock reveal">
+        <div class="browser-bar"><span></span><span></span><span></span></div>
+        <div class="project-shot">
+          <img src="assets/alertagt-preview.jpg" alt="Pantalla de inicio de sesión de AlertaGT" loading="lazy">
+        </div>
+        <p class="gallery-caption">AlertaGT</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 2.f — Portafolio de proyectos (detalle) -->
+<section style="background:var(--bg-alt)">
+  <div class="container">
+    <div class="section-title-row reveal">
+      <p class="section-eyebrow">Portafolio</p>
+      <h2 class="section-title">Proyectos destacados</h2>
+      <p class="section-lead">Proyectos finalizados, con su descripción, habilidades aplicadas y enlace al código fuente.</p>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="browser-bar"><span></span><span></span><span></span></div>
+        <div class="project-shot">
+          <img src="assets/foodpilot-preview.jpg" alt="Pantalla de inicio de sesión de FoodPilot" loading="lazy">
+        </div>
+        <div class="project-body">
+          <span class="project-year">2026 · HexaCodee</span>
+          <h3><img src="assets/logo-foodpilot.png" alt="" class="project-title-logo">FoodPilot</h3>
+          <p>Plataforma de gestión de restaurantes con arquitectura de microservicios: administración de menús, mesas, pedidos y reservaciones, con roles para administradores de plataforma, de restaurante y clientes.</p>
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">.NET</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">Docker</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/HexaCodee/FoodPilot" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.29 9.29 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.03 10.03 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+              Repositorio
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="browser-bar"><span></span><span></span><span></span></div>
+        <div class="project-shot">
+          <img src="assets/crediexpress-preview.jpg" alt="Pantalla de inicio de sesión de CrediExpress" loading="lazy">
+        </div>
+        <div class="project-body">
+          <span class="project-year">2026 · HexaCodee</span>
+          <h3><img src="assets/logo-crediexpress.png" alt="" class="project-title-logo">CrediExpress</h3>
+          <p>Sistema bancario con arquitectura de microservicios para el manejo seguro de cuentas, transferencias, historial de transacciones y conversión de divisas, con autenticación por roles y permisos.</p>
+          <div class="project-tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">.NET</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">Docker</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/HexaCodee/CrediExpress" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.29 9.29 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.03 10.03 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+              Repositorio
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="browser-bar"><span></span><span></span><span></span></div>
+        <div class="project-shot">
+          <img src="assets/alertagt-preview.jpg" alt="Pantalla de inicio de sesión de AlertaGT" loading="lazy">
+        </div>
+        <div class="project-body">
+          <span class="project-year">2026 · HexaCodee</span>
+          <h3><img src="assets/logo-alertagt.png" alt="" class="project-title-logo">AlertaGT</h3>
+          <p>Aplicación de alertas geolocalizadas para reportar y notificar accidentes o riesgos cercanos en Guatemala, con notificaciones push, autenticación segura y protección contra bloqueo de cuentas.</p>
+          <div class="project-tags">
+            <span class="tag">.NET</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">Docker</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/HexaCodee/AlertaGT" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.29 9.29 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.03 10.03 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+              Repositorio
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3>Jose Rodas</h3>
+        <p>Estudiante de Perito en Informática construyendo aplicaciones web, de escritorio y sistemas backend con Java, C# y Node.js.</p>
+      </div>
+      <div>
+        <p class="footer-social-title">Conecta conmigo</p>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/jose-carlos-rodas-macal-453a89424/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 8.5H3.56V20.5h3.38V8.5ZM5.25 3.5a1.97 1.97 0 1 0 0 3.94 1.97 1.97 0 0 0 0-3.94ZM20.5 20.5h-3.38v-6.06c0-1.44-.03-3.3-2.01-3.3-2.01 0-2.32 1.57-2.32 3.2v6.16H9.4V8.5h3.24v1.64h.05c.45-.86 1.56-1.77 3.21-1.77 3.43 0 4.6 2.26 4.6 5.2v6.93Z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/jrodas-2021373" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.29 9.29 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.03 10.03 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+            GitHub
+          </a>
+          <a href="mailto:jrodas-2021373@kinal.edu.gt">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Email
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 <strong>Jose Rodas</strong> — Desarrollador Full Stack. Todos los derechos reservados.
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
